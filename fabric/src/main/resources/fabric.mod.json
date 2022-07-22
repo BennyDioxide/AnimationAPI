@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "animationapi",
+  "version": "${version}",
+  "name": "AnimationApi",
+  "description": "Complete the official Animation API",
+  "authors": [
+    "BennyDioxide"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.bennydioxide.animationapi.fabric.AnimationApiFabric"
+    ]
+  },
+  "mixins": [
+    "animationapi.mixins.json",
+    "animationapi-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": ">=1.19"
+  }
+}
